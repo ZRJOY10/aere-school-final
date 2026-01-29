@@ -28,12 +28,12 @@ export default function ContactSection() {
               
               <div className="flex items-start gap-2">
                 <Phone className="shrink-0 mt-1" size={16} />
-                <p>+8802581537774</p>
+                <p>+8801309108406, +8801716683688</p>
               </div>
               
               <div className="flex items-start gap-2">
                 <Mail className="shrink-0 mt-1" size={16} />
-                <p>drmc_bd@yahoo.com</p>
+                <p>aeresc108406@gmail.com</p>
               </div>
             </div>
 
