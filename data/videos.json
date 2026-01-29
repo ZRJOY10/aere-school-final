@@ -1,0 +1,85 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Annual Day Highlights 2023",
+      "date": "2023-12-25",
+      "thumbnail": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "15:30",
+      "description": "Complete coverage of our annual day celebration"
+    },
+    {
+      "id": 2,
+      "title": "Sports Day Championship",
+      "date": "2024-03-15",
+      "thumbnail": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80",
+      "videoUrl": "test.mp4",
+      "duration": "12:45",
+      "description": "Thrilling moments from the sports championship"
+    },
+    {
+      "id": 3,
+      "title": "Science Project Demonstrations",
+      "date": "2024-02-20",
+      "thumbnail": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "18:20",
+      "description": "Students explaining their innovative science projects"
+    },
+    {
+      "id": 4,
+      "title": "Cultural Festival Performances",
+      "date": "2024-01-10",
+      "thumbnail": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "20:15",
+      "description": "Dance and music performances from cultural festival"
+    },
+    {
+      "id": 5,
+      "title": "Independence Day Ceremony",
+      "date": "2023-08-15",
+      "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "10:30",
+      "description": "Flag hoisting and patriotic celebrations"
+    },
+    {
+      "id": 6,
+      "title": "School Tour 2024",
+      "date": "2024-01-05",
+      "thumbnail": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "8:45",
+      "description": "Virtual tour of our school facilities"
+    },
+    {
+      "id": 7,
+      "title": "Teachers Day Special",
+      "date": "2023-09-05",
+      "thumbnail": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "14:20",
+      "description": "Students expressing gratitude to teachers"
+    },
+    {
+      "id": 8,
+      "title": "Environmental Awareness Campaign",
+      "date": "2023-07-05",
+      "thumbnail": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "11:15",
+      "description": "Tree plantation and environmental initiatives"
+    },
+    {
+      "id": 9,
+      "title": "Inter-School Debate Competition",
+      "date": "2023-10-15",
+      "thumbnail": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+      "videoUrl": "https://www.youtube.com/watch?v=zVjbVPFeo2o",
+      "duration": "16:40",
+      "description": "Highlights from the debate championship"
+    }
+  ]
+}

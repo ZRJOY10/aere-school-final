@@ -1,0 +1,57 @@
+{
+  "logo": "/images/image.png",
+  "instituteName": "Atomic Energy Research Establishment School and College",
+  "shortName": "A.E.R.E",
+  "eiin": "108406",
+  "contact": {
+    "phone": "+880-1234-567890",
+    "email": "aeresc108406@gmail.com"
+  },
+  "topButtons": [
+    {
+      "id": "xi-admission",
+      "label": "XI Admission",
+      "href": "/admission/xi",
+      "variant": "default"
+    },
+    {
+      "id": "apply-now",
+      "label": "Apply Now",
+      "href": "/apply",
+      "variant": "destructive"
+    },
+    {
+      "id": "login",
+      "label": "Login",
+      "href": "/login",
+      "variant": "outline"
+    }
+  ],
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "id": "admission",
+      "label": "Admission",
+      "href": "/admission"
+    },
+    {
+      "id": "academic",
+      "label": "Academic",
+      "href": "/academic"
+    },
+    {
+      "id": "administration",
+      "label": "Administration",
+      "href": "/administration"
+    }
+  ]
+}

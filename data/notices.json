@@ -1,0 +1,28 @@
+{
+  "notices": [
+    {
+      "id": 1,
+      "text": "Admission open for Class XI (Science Group) - Academic Year 2025-26",
+      "date": "2025-01-15",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "text": "Annual Sports Day will be held on January 29, 2026",
+      "date": "2026-01-29",
+      "priority": "high"
+    },
+    {
+      "id": 3,
+      "text": "Parent-Teacher Meeting scheduled for January 20, 2026",
+      "date": "2026-01-20",
+      "priority": "high"
+    },
+    {
+      "id": 4,
+      "text": "Science Fair registration deadline extended to January 18, 2026",
+      "date": "2026-01-18",
+      "priority": "high"
+    }
+  ]
+}

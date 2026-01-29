@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "image": "/images/event-1.jpeg",
+      "date": "2025-04-14",
+      "startDate": "2025-04-14",
+      "endDate": "2025-04-14",
+      "venue": "",
+      "title": "বাংলা নববর্ষ ১৪৩২ উদযাপন",
+      "excerpt": "The school community came together to celebrate বাংলা নববর্ষ ১৪৩২ with vibrant cultural programs, traditional music and dance performances, and students and teachers dressed in colorful traditional attire. The event fostered unity and joy, marking the Bengali New Year with enthusiasm and pride."
+    },
+    {
+      "id": 2,
+      "image": "/images/event-2.jpeg",
+      "date": "2025-01-15",
+      "startDate": "2025-01-15",
+      "endDate": "2025-01-15",
+      "venue": "",
+      "title": "বার্ষিক মিলাদ  এবং দোয়া মাহফিল",
+      "excerpt": "A heartfelt spiritual gathering was held, featuring prayers, recitations from the Holy Quran, and special supplications for the well-being of students, staff, and the nation. The বার্ষিক মিলাদ এবং দোয়া মাহফিল created a serene and reflective atmosphere, strengthening the bonds within the school community."
+    },
+    {
+      "id": 3,
+      "image": "/images/event-3.jpeg",
+      "date": "2025-11-10",
+      "startDate": "2025-11-10",
+      "endDate": "2025-11-10",
+      "venue": "",
+      "title": "Admission Going on",
+      "excerpt": "The school has officially opened admissions for the upcoming academic session. Prospective students and their parents are invited to visit the campus, learn about the curriculum, and complete the enrollment process. Join us for a journey of academic excellence and holistic development."
+    },
+    {
+      "id": 4,
+      "image": "/images/event-4.jpeg",
+      "date": "2025-08-15",
+      "startDate": "2025-08-15",
+      "endDate": "2025-08-15",
+      "venue": "",
+      "title": "জুলাই পুনর্জাগরণ অনুষ্ঠানমালা ২০২৫",
+      "excerpt": "The জুলাই পুনর্জাগরণ অনুষ্ঠানমালা ২০২৫ was a grand celebration of the nation's independence, featuring patriotic songs, speeches, and cultural performances. Students participated in various activities that highlighted the values of freedom, unity, and national pride."
+    },
+    {
+      "id": 5,
+      "image": "/images/School/birdsEyeCampus.jpg",
+      "date": "",
+      "startDate": "",
+      "endDate": "",
+      "venue": "",
+      "title": "Birds Eye Campus View",
+      "excerpt": "A special event where students and staff participated in a tree plantation drive, planting saplings across the campus to promote environmental awareness and sustainability. The initiative aims to create a greener, healthier future for the school and the community."
+    },
+    {
+      "id": 6,
+      "image": "/images/School/school1.jpg",
+      "date": "",
+      "startDate": "",
+      "endDate": "",
+      "venue": "",
+      "title": "Session",
+      "excerpt": "A glimpse into the vibrant academic environment and daily life at our school, showcasing students engaged in learning, extracurricular activities, and community events."
+    },
+    {
+      "id": 7,
+      "image": "/images/School/school2.jpg",
+      "date": "",
+      "startDate": "",
+      "endDate": "",
+      "venue": "",
+      "title": "Session",
+      "excerpt": "Another view of our school campus, highlighting the modern facilities and welcoming atmosphere that support student growth and achievement."
+    },
+    {
+      "id": 8,
+      "image": "/images/School/students.jpg",
+      "date": "",
+      "startDate": "",
+      "endDate": "",
+      "venue": "",
+      "title": "Celebrating Achievements",
+      "excerpt": "Celebrating the outstanding achievements of our students in academics, sports, and cultural activities. Their dedication and hard work continue to bring pride to our institution."
+    },
+    {
+      "id": 9,
+      "image": "/images/School/treePlantation.jpg",
+      "date": "",
+      "startDate": "",
+      "endDate": "",
+      "venue": "",
+      "title": "Tree Plantation Drive",
+      "excerpt": "Our students actively participated in a tree plantation drive, demonstrating their commitment to environmental stewardship. This event encouraged everyone to contribute to a sustainable and eco-friendly campus."
+    }
+  ]
+}

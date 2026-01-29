@@ -1,0 +1,68 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "title": "বাংলা নববর্ষ ১৪৩২ উদযাপন",
+      "date": "2025-04-14",
+      "image": "/images/event-1.jpeg",
+      "description": "Celebrating the Bengali New Year with cultural programs and traditional attire"
+    },
+    {
+      "id": 2,
+      "title": "বার্ষিক মিলাদ  এবং দোয়া মাহফিল",
+      "date": "2025-01-15",
+      "image": "/images/event-2.jpeg",
+      "description": "Spiritual gathering with prayers and recitations"
+    },
+    {
+      "id": 3,
+      "title": "Admission Going on",
+      "date": "2025-11-10",
+      "image": "/images/event-3.jpeg",
+      "description": "Enrollment open for new academic session"
+    },
+    {
+      "id": 4,
+      "title": "জুলাই পুনর্জাগরণ অনুষ্ঠানমালা ২০২৫",
+      "date": "2025-08-15",
+      "image": "/images/event-4.jpeg",
+      "description": "Celebrating the spirit of independence with patriotic events"
+    },
+    {
+      "id": 5,
+      "title": "Birds Eye Campus View",
+      "date": "",
+      "image": "/images/School/birdsEyeCampus.jpg",
+      "description": "Students planting saplings for a greener future"
+    },
+    {
+      "id": 6,
+      "title": "Session",
+      "date": "",
+      "image": "/images/School/school1.jpg",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "title": "Session",
+      "date": "",
+      "image": "/images/School/school2.jpg",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "title": "Celebrating Achievements",
+      "date": "",
+      "image": "/images/School/students.jpg",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "title": "Tree Plantation Drive",
+      "date": "",
+      "image": "/images/School/treePlantation.jpg",
+      "description": "Students planting saplings for a greener future"
+    }
+
+  ]
+}
