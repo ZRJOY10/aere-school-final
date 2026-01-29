@@ -25,7 +25,7 @@ export default function WelcomeVideoSection({
     const videos = videosData.videos.slice(0, 5);
     const DEFAULT_VIDEO = {
       id: 0,
-      title: "Welcome to A.E.R.E School & College",
+      title: "Welcome to  Atomic Energy Research Establishment School & College",
       date: "",
       thumbnail: "/images/School/birdsEyeCampus.jpg",
       videoUrl: "https://youtube.com/watch?v=dQw4w9WgXcQ",
@@ -48,7 +48,7 @@ export default function WelcomeVideoSection({
       <section className="bg-white py-8 md:py-12 border-b border-gray-100">
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-700 mb-3 text-center">
-            Welcome to A.E.R.E School & College
+            Welcome to  Atomic Energy Research Establishment School & College
           </h2>
           <p className="text-gray-600 text-base md:text-lg mb-6 text-center max-w-2xl mx-auto">
             Watch our welcome video to get a glimpse of our vibrant campus, dedicated faculty, and the spirit of excellence that defines our institution.

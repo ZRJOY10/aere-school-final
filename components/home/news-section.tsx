@@ -53,7 +53,7 @@ export default function NewsSection() {
         <div className="text-center mb-12">
           <div className="text-sm font-semibold text-green-600 uppercase tracking-wide mb-2">Latest Updates</div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">News & Events</h2>
-          <p className="text-gray-600 text-lg">Stay updated with the latest happenings at A.E.R.E</p>
+          <p className="text-gray-600 text-lg">Stay updated with the latest happenings at  Atomic Energy Research Establishment</p>
         </div>
 
         <Carousel className="w-full" opts={{ align: "start" }}>

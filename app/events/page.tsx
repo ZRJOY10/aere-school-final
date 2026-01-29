@@ -30,7 +30,7 @@ export default function EventsPage() {
             <div className="text-sm font-semibold text-green-600 uppercase tracking-wide mb-2">All Updates</div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 md:mb-4">News & Events</h1>
             <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
-              Explore all the latest news and events from A.E.R.E School and College
+              Explore all the latest news and events from  Atomic Energy Research Establishment School and College
             </p>
           </div>
 

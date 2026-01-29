@@ -9,9 +9,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "A.E.R.E School & College | Quality Education in Savar, Dhaka",
+  title: " Atomic Energy Research Establishment School & College | Quality Education in Savar, Dhaka",
   description:
-    "Welcome to A.E.R.E School and College - Established 1992. Excellence in Science-focused education with modern facilities. Located in Ashulia, Savar, Dhaka.",
+    "Welcome to  Atomic Energy Research Establishment School and College - Established 1992. Excellence in Science-focused education with modern facilities. Located in Ashulia, Savar, Dhaka.",
   generator: "Next.js",
   icons: {
     icon: "/images/image.png",

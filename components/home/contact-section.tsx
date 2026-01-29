@@ -17,7 +17,7 @@ export default function ContactSection() {
           {/* Left - Contact Info */}
           <div className="lg:col-span-3 text-white space-y-4">
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-green-400 mb-4 md:mb-6">
-              A.E.R.E School and College
+               Atomic Energy Research Establishment School and College
             </h2>
             
             <div className="space-y-3 text-sm">
@@ -53,14 +53,14 @@ export default function ContactSection() {
           <div className="lg:col-span-6 order-first md:order-none">
             <div className="relative h-[280px] sm:h-[350px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-2xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7291.886300616788!2d90.2793208345238!3d23.962450352952278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e7e7aac4bcfb%3A0x14aac02fd9af97bb!2sA.E.R.E%20School%20and%20College!5e0!3m2!1sen!2sbd!4v1769696879427!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7291.886300616788!2d90.2793208345238!3d23.962450352952278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e7e7aac4bcfb%3A0x14aac02fd9af97bb!2s Atomic Energy Research Establishment%20School%20and%20College!5e0!3m2!1sen!2sbd!4v1769696879427!5m2!1sen!2sbd"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="A.E.R.E School and College Location"
+                title=" Atomic Energy Research Establishment School and College Location"
               />
             </div>
           </div>

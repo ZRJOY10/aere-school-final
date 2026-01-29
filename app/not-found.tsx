@@ -43,7 +43,7 @@ export default function NotFound() {
 
         {/* Footer Text */}
         <p className="mt-10 text-xs text-gray-400">
-          A.E.R.E School and College
+           Atomic Energy Research Establishment School and College
         </p>
       </div>
     </main>

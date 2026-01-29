@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Image src="/images/image.png" alt="AERE Logo" width={40} height={40} className="rounded-full" />
               <div>
-                <p className="text-sm font-bold text-white">A.E.R.E</p>
+                <p className="text-sm font-bold text-white"> Atomic Energy Research Establishment</p>
                 <p className="text-xs text-gray-400">School & College</p>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-6 md:pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs sm:text-sm text-gray-400 text-center md:text-left">
-              © 2025 A.E.R.E School and College. All rights reserved.
+              © 2025  Atomic Energy Research Establishment School and College. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-xs sm:text-sm">
               <a href="#" className="hover:text-green-400 transition">
