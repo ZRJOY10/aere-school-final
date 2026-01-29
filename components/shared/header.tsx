@@ -61,19 +61,20 @@ export default function Header() {
             {/* Right: Action Buttons */}
             <div className="hidden md:flex items-center gap-2">
               {headerData.topButtons.map((button) => (
-                <Link key={button.id} href={button.href}>
+                <Link key={button.id} href={button.href} className="group">
                   <Button
                     variant={button.variant as "default" | "destructive" | "outline"}
                     size="sm"
                     className={
-                      button.variant === "destructive"
+                      `transition-all duration-200 cursor-pointer group-hover:scale-105 group-hover:shadow-lg ` +
+                      (button.variant === "destructive"
                         ? "bg-red-600 hover:bg-red-700"
                         : button.variant === "outline"
                           ? "border-white text-green-600 hover:bg-green-500 hover:text-white"
-                          : ""
+                          : "bg-green-600 hover:bg-green-700 text-white")
                     }
                   >
-                    {button.label}
+                    <span className="group-hover:underline">{button.label}</span>
                   </Button>
                 </Link>
               ))}
@@ -96,7 +97,7 @@ export default function Header() {
             <NavigationMenuList className="flex gap-1">
               {headerData.navigation.map((item) => (
                 <NavigationMenuItem key={item.id}>
-                  <Link href={item.href} legacyBehavior passHref>
+                  <Link href={item.href} passHref>
                     <NavigationMenuLink className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition">
                       {item.label}
                     </NavigationMenuLink>

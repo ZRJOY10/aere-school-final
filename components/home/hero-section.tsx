@@ -45,7 +45,7 @@ export default function HeroSection() {
                 />
               </div>
               <h3 className="text-sm font-bold text-gray-900 mb-0.5">{chairman.name}</h3>
-              <p className="text-xs text-gray-600 mb-2">{chairman.designation}</p>
+              <p className="text-xs text-gray-600 mb-2 whitespace-pre-line">{chairman.designation}</p>
               <p className="text-xs text-gray-700 mb-3 line-clamp-3 flex-grow">{chairman.excerpt}</p>
               <Button
                 onClick={() => setChairmanModalOpen(true)}
@@ -134,7 +134,7 @@ export default function HeroSection() {
                 />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-gray-900">{chairman.name}</h3>
-              <p className="text-xs sm:text-sm text-gray-600">{chairman.designation}</p>
+              <p className="text-xs sm:text-sm text-gray-600 whitespace-pre-line">{chairman.designation}</p>
             </div>
             <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed whitespace-pre-line text-sm sm:text-base">
               {chairman.message} <br />
@@ -164,7 +164,7 @@ export default function HeroSection() {
                 />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-gray-900">{principal.name}</h3>
-              <p className="text-xs sm:text-sm text-gray-600">{principal.designation}</p>
+              <p className="text-xs sm:text-sm text-gray-600 whitespace-pre-line">{principal.designation}</p>
             </div>
             <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed whitespace-pre-line text-sm sm:text-base">
               {principal.message}<br />
