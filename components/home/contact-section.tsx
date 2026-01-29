@@ -23,7 +23,7 @@ export default function ContactSection() {
             <div className="space-y-3 text-sm">
               <div className="flex items-start gap-2">
                 <MapPin className="shrink-0 mt-1" size={16} />
-                <p>Mohammadpur, Dhaka</p>
+                <p>Ganakbari, Ashulia, Savar, Dhaka-1349</p>
               </div>
               
               <div className="flex items-start gap-2">
@@ -53,7 +53,7 @@ export default function ContactSection() {
           <div className="lg:col-span-6 order-first md:order-none">
             <div className="relative h-[280px] sm:h-[350px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-2xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9076876729283!2d90.36352431498154!3d23.750891184588744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf4c8c0f0f0f%3A0x0!2zMjPCsDQ1JzAzLjIiTiA5MMKwMjEnNTcuNiJF!5e0!3m2!1sen!2sbd!4v1234567890123!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7291.886300616788!2d90.2793208345238!3d23.962450352952278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e7e7aac4bcfb%3A0x14aac02fd9af97bb!2sA.E.R.E%20School%20and%20College!5e0!3m2!1sen!2sbd!4v1769696879427!5m2!1sen!2sbd"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -64,6 +64,7 @@ export default function ContactSection() {
               />
             </div>
           </div>
+
 
           {/* Right - Important Links */}
           <div className="lg:col-span-3 text-white">
