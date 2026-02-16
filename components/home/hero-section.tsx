@@ -167,10 +167,10 @@ export default function HeroSection() {
               <p className="text-xs sm:text-sm text-gray-600 whitespace-pre-line">{principal.designation}</p>
             </div>
             <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed whitespace-pre-line text-sm sm:text-base">
-              {principal.message}<br />
+              {principal.message}<br /> <br />
+              With best wishes,<br />
               {principal.name} <br />
-              Principal <br />
-              Atomic Energy Research Establishment School and College
+              {principal.designation} <br />
             </div>
           </ScrollArea>
         </DialogContent>
