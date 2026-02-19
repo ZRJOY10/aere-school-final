@@ -1,0 +1,100 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "মোঃ আব্দুল করিম",
+      "designation": "প্রধান শিক্ষক",
+      "mobile": "+880 1712-345678",
+      "email": "abdul.karim@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "ফাতেমা বেগম",
+      "designation": "সহকারী প্রধান শিক্ষক",
+      "mobile": "+880 1812-456789",
+      "email": "fatema.begum@aereschool.edu.bd",
+     "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "মোঃ রফিকুল ইসলাম",
+      "designation": "সিনিয়র শিক্ষক (গণিত)",
+      "mobile": "+880 1912-567890",
+      "email": "rafiqul.islam@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "নাজমুন নাহার",
+      "designation": "সিনিয়র শিক্ষক (বাংলা)",
+      "mobile": "+880 1612-678901",
+      "email": "nazmun.nahar@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "মোঃ শফিকুল হক",
+      "designation": "সিনিয়র শিক্ষক (ইংরেজি)",
+      "mobile": "+880 1512-789012",
+      "email": "shafiqul.haque@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "আয়েশা সিদ্দিকা",
+      "designation": "শিক্ষক (বিজ্ঞান)",
+      "mobile": "+880 1412-890123",
+      "email": "ayesha.siddika@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "মোঃ আলী আকবর",
+      "designation": "শিক্ষক (সমাজ বিজ্ঞান)",
+      "mobile": "+880 1312-901234",
+      "email": "ali.akbar@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "সালমা আক্তার",
+      "designation": "শিক্ষক (ইসলাম শিক্ষা)",
+      "mobile": "+880 1712-012345",
+      "email": "salma.akter@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "মোঃ জাহাঙ্গীর আলম",
+      "designation": "শিক্ষক (তথ্য প্রযুক্তি)",
+      "mobile": "+880 1812-123456",
+      "email": "jahangir.alam@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "রুবিনা ইয়াসমিন",
+      "designation": "শিক্ষক (শিল্পকলা)",
+      "mobile": "+880 1912-234567",
+      "email": "rubina.yasmin@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "মোঃ হাবিবুর রহমান",
+      "designation": "শিক্ষক (শারীরিক শিক্ষা)",
+      "mobile": "+880 1612-345678",
+      "email": "habibur.rahman@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "শামীমা নাসরিন",
+      "designation": "শিক্ষক (হিসাব বিজ্ঞান)",
+      "mobile": "+880 1512-456789",
+      "email": "shamima.nasrin@aereschool.edu.bd",
+      "image": "/images/teachers/teachers-1.jpg"
+    }
+  ]
+}

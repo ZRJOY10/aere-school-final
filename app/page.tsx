@@ -7,6 +7,7 @@ import GallerySection from "@/components/home/gallery-sectionn"
 import NewsSection from "@/components/home/news-section"
 import AchievementsSection from "@/components/home/achievements-section"
 import ContactSection from "@/components/home/contact-section"
+import TeachersSection from "@/components/home/teachers-section"
 import Footer from "@/components/shared/footer"
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Header />
       <HeroSection />
-      <WelcomeVideoSection />
+      <WelcomeVideoSection />      
+      <TeachersSection />
       <EventsNavigationSection />
       <GallerySection />
       <NoticeSection />
