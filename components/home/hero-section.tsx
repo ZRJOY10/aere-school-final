@@ -103,7 +103,7 @@ export default function HeroSection() {
                 />
               </div>
               <h3 className="text-sm font-bold text-gray-900 mb-0.5">{principal.name}</h3>
-              <p className="text-xs text-gray-600 mb-2">{principal.designation}</p>
+              <p className="text-xs text-gray-600 mb-2 whitespace-pre-line">{principal.designation}</p>
               <p className="text-xs text-gray-700 mb-3 line-clamp-3 flex-grow">{principal.excerpt}</p>
               <Button
                 onClick={() => setPrincipalModalOpen(true)}
@@ -163,7 +163,7 @@ export default function HeroSection() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-900">{principal.name}</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-gray-900">{principal.name}</h3> <br />
               <p className="text-xs sm:text-sm text-gray-600 whitespace-pre-line">{principal.designation}</p>
             </div>
             <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed whitespace-pre-line text-sm sm:text-base">
