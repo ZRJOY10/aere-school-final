@@ -16,7 +16,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <WelcomeVideoSection />      
-      <TeachersSection />
+      {/* <TeachersSection /> */}
       <EventsNavigationSection />
       <GallerySection />
       <NoticeSection />
