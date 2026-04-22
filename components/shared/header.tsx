@@ -19,6 +19,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+  const loginButton = headerData.topButtons.find((button) => button.id === "login")
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,10 +49,10 @@ export default function Header() {
         <div className="container mx-auto px-3 sm:px-4 md:px-8 py-2.5 sm:py-3">
           <div className="flex justify-between items-center">
             {/* Left: Logo & Name */}
-            <div className="flex items-center gap-2 sm:gap-3">
+            <div className="flex items-center gap-2 sm:gap-3 min-w-0">
               <Image src={headerData.logo} alt="AERE Logo" width={40} height={40} className="rounded-full w-9 h-9 sm:w-[50px] sm:h-[50px]" />
-              <div>
-                <h1 className="font-bold text-xs sm:text-sm md:text-base lg:text-lg leading-tight line-clamp-1">
+              <div className="min-w-0">
+                <h1 className="font-bold text-xs sm:text-sm md:text-base lg:text-lg leading-4 sm:leading-tight line-clamp-2 break-words">
                   {headerData.instituteName}
                 </h1>
                 <p className="text-green-100 text-[10px] sm:text-xs">EIIN: {headerData.eiin}</p>
@@ -80,9 +81,20 @@ export default function Header() {
               ))}
             </div>
 
-            {/* Mobile Menu Button */}
-            <div className="md:hidden">
-              <button onClick={() => setIsOpen(!isOpen)} className="p-2">
+            {/* Mobile: Login + Menu */}
+            <div className="md:hidden flex items-center gap-2">
+              {loginButton && (
+                <Link href={loginButton.href}>
+                  <Button
+                    variant={loginButton.variant as "default" | "destructive" | "outline"}
+                    size="sm"
+                    className={loginButton.variant === "outline" ? "bg-red-600 hover:bg-red-700 w-full" : "w-full"}
+                  >
+                    Log In
+                  </Button>
+                </Link>
+              )}
+              <button onClick={() => setIsOpen(!isOpen)} className="p-2" aria-label="Toggle mobile menu">
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
             </div>
