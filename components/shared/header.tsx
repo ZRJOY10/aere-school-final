@@ -122,7 +122,7 @@ export default function Header() {
       </div>
 
       {/* Marquee Notice Line */}
-      <div className="bg-yellow-50 border-b border-yellow-200 py-1.5 sm:py-2 overflow-hidden">
+      {/* <div className="bg-yellow-50 border-b border-yellow-200 py-1.5 sm:py-2 overflow-hidden">
         <div className="flex items-center gap-2 sm:gap-4">
           <span className="bg-red-600 text-white px-2 sm:px-4 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold shrink-0 ml-2 sm:ml-4">NOTICE</span>
           <Marquee
@@ -139,7 +139,7 @@ export default function Header() {
             ))}
           </Marquee>
         </div>
-      </div>
+      </div> */}
 
       {/* Mobile Navigation */}
       {isOpen && (
