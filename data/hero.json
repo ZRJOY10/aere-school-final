@@ -43,6 +43,13 @@
       "src": "/images/School/TreePlantation.jpg",
       "alt": "Tree Plantation",
       "caption": "Green Initiatives"
+    },
+    {
+      "id": 6,
+      "src": "/images/School/sports 2026.jpeg",
+      "alt": "Sports Event 2026",
+      "caption": "Active Campus Life"
     }
+    
   ]
 }

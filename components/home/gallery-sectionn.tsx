@@ -7,7 +7,7 @@ export default function GallerySection() {
       <div className="grid grid-cols-1 md:grid-cols-2">
         {/* Photo Gallery */}
         <Link
-          href="/images/School/birdsEyeView.jpg"
+          href="/gallery/photos"
           className="group relative h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] overflow-hidden"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-green-700 transition-all duration-500 group-hover:from-green-700 group-hover:to-green-800">

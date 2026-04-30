@@ -8,7 +8,6 @@ import { Dialog, DialogContent } from "@/components/ui/dialog"
 interface Photo {
   id: number
   title: string
-  date: string
   image: string
   description: string
 }
@@ -81,7 +80,7 @@ export default function PhotoLightbox({
             <>
               <button
                 onClick={goToPrevious}
-                className="absolute left-2 sm:left-4 z-50 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white transition-colors"
+                className="absolute left-2 cursor-pointer sm:left-4 z-50 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white transition-colors"
                 aria-label="Previous"
               >
                 <ChevronLeft size={24} className="sm:hidden" />
@@ -89,11 +88,11 @@ export default function PhotoLightbox({
               </button>
               <button
                 onClick={goToNext}
-                className="absolute right-2 sm:right-4 z-50 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white transition-colors"
+                className="absolute right-2 cursor-pointer sm:right-4 z-50 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white transition-colors"
                 aria-label="Next"
               >
-                <ChevronRight size={24} className="sm:hidden" />
-                <ChevronRight size={32} className="hidden sm:block" />
+                <ChevronRight size={24} className="sm:hidden cursor-pointer" />
+                <ChevronRight size={32} className="hidden sm:block cursor-pointer" />
               </button>
             </>
           )}
@@ -113,17 +112,13 @@ export default function PhotoLightbox({
           </div>
 
           {/* Title and Date Overlay */}
-          <div className="absolute top-4 left-4 z-40 bg-gradient-to-r from-black/70 to-transparent pr-20 pl-6 py-4 rounded-lg">
-            <h2 className="text-white text-2xl font-semibold mb-1">
+          <div className="absolute cursor-pointer left-3 top-3 z-40 max-w-[calc(100%-5.5rem)] rounded-2xl bg-black/55 px-4 py-3 backdrop-blur-sm sm:left-4 sm:top-4 sm:max-w-md">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-white/60">
+              Photo {String(currentIndex + 1).padStart(2, "0")}
+            </p>
+            <h2 className="mt-1 text-lg font-semibold leading-6 text-white sm:text-2xl">
               {currentPhoto.title}
             </h2>
-            <p className="text-white/80 text-sm">
-              {new Date(currentPhoto.date).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}
-            </p>
           </div>
 
           {/* Counter */}
