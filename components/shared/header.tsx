@@ -134,7 +134,7 @@ export default function Header() {
             {noticesData.notices.map((notice, idx) => (
               <span key={notice.id} className="text-xs sm:text-sm text-gray-800 mx-4 sm:mx-8">
                 {idx > 0 && <span className="text-red-600 mx-2 sm:mx-4">★</span>}
-                {notice.text}
+                {notice.title}
               </span>
             ))}
           </Marquee>
